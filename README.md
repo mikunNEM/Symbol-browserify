@@ -1,4 +1,4 @@
-# Symbol-browserify
+# symbol-browserify
 symbol-qr-libraryやsymbol-hd-walletsを使う場合はsymbol-sdk-pack-x.x.jsを使用してください。
 
 ## how to build
