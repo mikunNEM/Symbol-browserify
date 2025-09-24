@@ -46,7 +46,7 @@ const rxjs = require("/node_modules/rxjs");
 const qr   = require("/node_modules/symbol-qr-library");
 
 const NODE = 'http://testnet1.symbol-mikun.net:3001';
-const blockHttp = new nem.BlockHttp(NODE);
+const blockHttp = new sym.BlockHttp(NODE);
 blockHttp.getBlockByHeight(1).subscribe(x=>console.log(x));
 
 
